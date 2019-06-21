@@ -36,8 +36,6 @@ def main():
 
         if task_type == "reg":
             yandex.reg(*parsed.task_args)
-        elif task_type == "auth":
-            yandex.auth_task(*parsed.task_args)
         elif task_type == "reg_test":
             # PASS='' PHONE=''  python run.py reg_test 'first_name' 'last_name'
             first_name = base64.b64encode( parsed.task_args[0].encode() )

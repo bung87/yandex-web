@@ -17,14 +17,11 @@
 
 ### local  
 
-`EMAIL=<your email> PASS='<your password>'python3 run.py <task_type> <task_args>`
+`PHONE=<your email> PASS='<your password>'python3 run.py <task_type> <task_args>`
 
 task type and args:
- * accept_invitation
- * follow "url"
- * forward "url"
- * reg 'first name' 'last name'
- 
+ * reg 'first name' 'last name' (data is base64 encoded)
+ * reg_test 'first name' 'last name' (data is plain text)
 
 ### docker
 
