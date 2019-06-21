@@ -1,0 +1,5 @@
+selenium==3.12.0
+cached-property==1.4.2
+tzlocal==1.5.1
+python-dateutil==2.7.3
+requests==2.21.0
